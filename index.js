@@ -16,8 +16,8 @@ async function mergeQuizlet() {
 
 async function main() {
   //await addNewTerms(['kruu bank', '25 sep 2022']);
-  //await ensureAllMP3();
-  await mergeQuizlet();
+  await ensureAllMP3();
+  //await mergeQuizlet();
 }
 
 main()
