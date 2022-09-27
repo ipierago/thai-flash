@@ -27,12 +27,20 @@ class Vocabulary {
     return -1;
   };
 
-  add = function (th, ipa = '') {
-    const i = this.find(th);
+  add = function (in_th, in_ipa = '', in_tags = []) {
+    const i = this.find(in_th);
     if (i == -1) {
-      this.data.push({ th: th, en: [], ipa: ipa });
+      this.data.push({ th: in_th, en: [], ipa: in_ipa, tags: in_tags });
     } else {
-      if (ipa != '') this.data[i].ipa = ipa;
+      let term = this.data[i];
+      if (in_ipa != '') term.ipa = in_ipa;
+      if (in_tags != null && in_tags.length > 0) {
+        if (term.tags === undefined) term.tags = [];
+        let rg = term.tags.concat(in_tags);
+        term.tags = rg.filter((item, index) => {
+          return rg.indexOf(item) == index;
+        });
+      }
     }
   };
 }
