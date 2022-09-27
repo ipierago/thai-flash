@@ -43,6 +43,29 @@ class Vocabulary {
       }
     }
   };
+
+  merge = function (newTerms) {
+    for (const newTerm of newTerms) {
+      console.log(newTerm);
+      const i = this.find(newTerm.th);
+      if (i == -1) {
+        this.data.push(newTerm);
+      } else {
+        let term = this.data[i];
+        console.log(term);
+        if (newTerm.ipa != '') term.ipa = newTerm.ipa;
+        if (newTerm.en != undefined) term.en = newTerm.en;
+        if (newTerm.tags != null && newTerm.tags.length > 0) {
+          if (term.tags === undefined) term.tags = [];
+          let rg = term.tags.concat(newTerm.tags);
+          term.tags = rg.filter((item, index) => {
+            return rg.indexOf(item) == index;
+          });
+        }
+        console.log(term);
+      }
+    }
+  };
 }
 
 module.exports = Vocabulary;

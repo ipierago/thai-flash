@@ -1,9 +1,23 @@
 const addNewTerms = require('./add-new-terms');
 const ensureAllMP3 = require('./ensure-all-mp3');
+const importTSV = require('./import-tsv');
+const Vocabulary = require('./vocabulary');
+
+async function mergeQuizlet() {
+  const vocabulary = new Vocabulary();
+  await vocabulary.load();
+  const terms = await importTSV('./data/quizlet/kruu bank 18 sep 2022.tsv', [
+    'kruu bank',
+    '18 sep 2022',
+  ]);
+  vocabulary.merge(terms);
+  await vocabulary.save();
+}
 
 async function main() {
   //await addNewTerms(['kruu bank', '25 sep 2022']);
-  await ensureAllMP3();
+  //await ensureAllMP3();
+  await mergeQuizlet();
 }
 
 main()
