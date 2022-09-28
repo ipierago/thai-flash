@@ -27,10 +27,10 @@ class Vocabulary {
     return -1;
   };
 
-  add = function (in_th, in_ipa = '', in_tags = []) {
+  add = function (in_th, in_ipa = '', in_en, in_tags = []) {
     const i = this.find(in_th);
     if (i == -1) {
-      this.data.push({ th: in_th, en: [], ipa: in_ipa, tags: in_tags });
+      this.data.push({ th: in_th, en: [in_en], ipa: in_ipa, tags: in_tags });
     } else {
       let term = this.data[i];
       if (in_ipa != '') term.ipa = in_ipa;

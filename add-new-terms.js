@@ -10,8 +10,9 @@ async function readTermsFromFile() {
   while (i < array.length) {
     const th = array[i].replace(/(\r\n|\n|\r)/gm, '');
     const ipa = array[i + 1].replace(/(\r\n|\n|\r)/gm, '');
-    i = i + 2;
-    const term = { th: th, ipa: ipa };
+    const en = array[i + 2].replace(/(\r\n|\n|\r)/gm, '');
+    i = i + 3;
+    const term = { th: th, ipa: ipa, en: en };
     newTerms.push(term);
   }
   return newTerms;
@@ -23,7 +24,7 @@ async function addNewTerms(in_tags = []) {
   await vocabulary.load();
   const newTerms = await readTermsFromFile();
   for (const term of newTerms) {
-    vocabulary.add(term.th, term.ipa, in_tags);
+    vocabulary.add(term.th, term.ipa, term.en, in_tags);
   }
   await vocabulary.save();
   console.log('addNewTerms end');

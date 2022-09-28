@@ -16,11 +16,11 @@ async function mergeQuizlet() {
 }
 
 async function main() {
-  //await addNewTerms(['kruu bank', '25 sep 2022']);
+  //await addNewTerms(['kruu bank', '28 sep 2022']);
   //await ensureAllMP3();
   //await mergeQuizlet();
-  //await anki.exportListenDeck('25 sep 2022');
-  await anki.exportSpeakDeck('25 sep 2022');
+  //await anki.exportListenDeck('28 sep 2022');
+  await anki.exportSpeakDeck('28 sep 2022');
 }
 
 main()

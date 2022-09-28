@@ -16,6 +16,8 @@ async function exportSpeakDeck(tag) {
       data = data + '"';
       data = data + ';';
       data = data + '"';
+      data = data + '[sound:' + term.th + '.mp3]';
+      data = data + '\r\n';
       data = data + term.th;
       data = data + '\r\n';
       data = data + term.ipa;
