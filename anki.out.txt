@@ -1,29 +1,57 @@
-"they;them";"พวกเขา
-phûakˑkhǎw"
-"[to be] dirty;messy;unclean";"สกปรก
-sòkˑkaˑpròk"
-"military;soldier";"ทหาร
-thaˑhǎan"
-"scientist";"นักวิทยาศาสตร์
-nákˑwítˑthaˑyaaˑsàat"
-"everything;every kind;every thing";"ทุกอย่าง
-thúkˑyàaŋ"
-"lawyer;legal authority;attorney";"นักกฎหมาย
-nákˑkòtˑmǎay"
-"[to] feel stiff;have an ache";"เมื่อย
-mʉ̂ay"
-"[to] shoulder;bear";"แบก
-bɛ̀ɛk"
-"[to] hold;bear;carry
-[to] resent
-[to] consider as;regard as(important or significant)
-[to] respect;observe";"ถือ
-thʉ̌ʉ"
-"[to] recover;get well;be cured
-[to be] lost;missing
-[to] disappear;vanish";"หาย
-hǎay"
-"[to] sleep;be asleep";"หลับ
-làp"
-"[to] meet;hold a meeting;gather";"ประชุม
-pràˑchum"
+"danger;hazard";"[sound:อันตราย.mp3]
+อันตราย
+anˑtaˑraay"
+"[to] graduate";"[sound:เรียนจบ.mp3]
+เรียนจบ
+rianˑcòp"
+"doctor's degree;doctorate";"[sound:ปริญญาเอก.mp3]
+ปริญญาเอก
+paˑrinˑyaaˑèek"
+"village";"[sound:หมู่บ้าน.mp3]
+หมู่บ้าน
+mùuˑbâan"
+"too much to";"[sound:เกินไปที่จะ.mp3]
+เกินไปที่จะ
+kəənˑpay thîiˑcà"
+"[to be] loud;noisy";"[sound:ดัง.mp3]
+ดัง
+daŋ"
+"faculty;school;branch of study";"[sound:คณะ.mp3]
+คณะ
+kháˑná"
+"for example;for instance";"[sound:เช่น.mp3]
+เช่น
+chên"
+"how long?";"[sound:นานแค่ไหน.mp3]
+นานแค่ไหน
+naan khɛ̂ɛ nǎy?"
+"government";"[sound:รัฐบาล.mp3]
+รัฐบาล
+rátˑthaˑbaan"
+"[to] paint;colour;daub";"[sound:ระบายสี.mp3]
+ระบายสี
+ráˑbaayˑsǐi"
+"[to] angle;fish;catch fish";"[sound:ตกปลา.mp3]
+ตกปลา
+tòkˑplaa"
+"[to] release;let go;set free";"[sound:ปล่อย.mp3]
+ปล่อย
+plɔ̀y"
+"painter";"[sound:ช่างทาสี.mp3]
+ช่างทาสี
+châaŋˑthaaˑsǐi"
+"housewife / housekeeper;maid;servant";"[sound:แม่บ้าน.mp3]
+แม่บ้าน
+mɛ̂ɛˑbâan"
+"waiter;waitress";"[sound:พนักงานเสิร์ฟ.mp3]
+พนักงานเสิร์ฟ
+phaˑnákˑŋaanˑsə̀əp"
+"postman";"[sound:บุรุษไปรษณีย์.mp3]
+บุรุษไปรษณีย์
+bùˑrùtˑprayˑsaˑnii"
+"businessman";"[sound:นักธุรกิจ.mp3]
+นักธุรกิจ
+nákˑthúˑraˑkìt"
+"doctor";"[sound:หมอ.mp3]
+หมอ
+mɔ̌ɔ"
