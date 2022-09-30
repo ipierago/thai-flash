@@ -1,57 +1,87 @@
-"danger;hazard";"[sound:อันตราย.mp3]
-อันตราย
-anˑtaˑraay"
-"[to] graduate";"[sound:เรียนจบ.mp3]
-เรียนจบ
-rianˑcòp"
-"doctor's degree;doctorate";"[sound:ปริญญาเอก.mp3]
-ปริญญาเอก
-paˑrinˑyaaˑèek"
-"village";"[sound:หมู่บ้าน.mp3]
-หมู่บ้าน
-mùuˑbâan"
-"too much to";"[sound:เกินไปที่จะ.mp3]
-เกินไปที่จะ
-kəənˑpay thîiˑcà"
-"[to be] loud;noisy";"[sound:ดัง.mp3]
-ดัง
-daŋ"
-"faculty;school;branch of study";"[sound:คณะ.mp3]
-คณะ
-kháˑná"
-"for example;for instance";"[sound:เช่น.mp3]
-เช่น
-chên"
-"how long?";"[sound:นานแค่ไหน.mp3]
-นานแค่ไหน
-naan khɛ̂ɛ nǎy?"
-"government";"[sound:รัฐบาล.mp3]
-รัฐบาล
-rátˑthaˑbaan"
-"[to] paint;colour;daub";"[sound:ระบายสี.mp3]
-ระบายสี
-ráˑbaayˑsǐi"
-"[to] angle;fish;catch fish";"[sound:ตกปลา.mp3]
-ตกปลา
-tòkˑplaa"
-"[to] release;let go;set free";"[sound:ปล่อย.mp3]
-ปล่อย
-plɔ̀y"
-"painter";"[sound:ช่างทาสี.mp3]
-ช่างทาสี
-châaŋˑthaaˑsǐi"
-"housewife / housekeeper;maid;servant";"[sound:แม่บ้าน.mp3]
-แม่บ้าน
-mɛ̂ɛˑbâan"
-"waiter;waitress";"[sound:พนักงานเสิร์ฟ.mp3]
-พนักงานเสิร์ฟ
-phaˑnákˑŋaanˑsə̀əp"
-"postman";"[sound:บุรุษไปรษณีย์.mp3]
-บุรุษไปรษณีย์
-bùˑrùtˑprayˑsaˑnii"
-"businessman";"[sound:นักธุรกิจ.mp3]
-นักธุรกิจ
-nákˑthúˑraˑkìt"
-"doctor";"[sound:หมอ.mp3]
-หมอ
-mɔ̌ɔ"
+"just, only";"[sound:แค่.mp3]
+แค่
+khɛ̂ɛ"
+"fried";"[sound:ทอด.mp3]
+ทอด
+thɔ̂ɔt"
+"insect";"[sound:แมลง.mp3]
+แมลง
+maˑlɛɛŋ"
+"ant";"[sound:มด.mp3]
+มด
+mót"
+"bee";"[sound:ผึ้ง.mp3]
+ผึ้ง
+phʉ̂ŋ"
+"beetle";"[sound:ด้วง.mp3]
+ด้วง
+dûaŋ"
+"butterfly";"[sound:ผีเสื้อ.mp3]
+ผีเสื้อ
+phǐiˑsʉ̂a"
+"fly";"[sound:แมลงวัน.mp3]
+แมลงวัน
+maˑlɛɛŋˑwan"
+"grasshopper";"[sound:ตั๊กแตน.mp3]
+ตั๊กแตน
+tákˑkaˑtɛɛn"
+"mosquito";"[sound:ยุง.mp3]
+ยุง
+yuŋ"
+"spider";"[sound:แมงมุม.mp3]
+แมงมุม
+mɛɛŋˑmum"
+"pupa (silkworm)";"[sound:ดักแด้.mp3]
+ดักแด้
+dàkˑdɛ̂ɛ"
+"Pupae in bamboo";"[sound:หนอนรถด่วน.mp3]
+หนอนรถด่วน
+nɔ̌ɔn rótˑdùan"
+"practice";"[sound:ฝึก.mp3]
+ฝึก
+fʉ̀k"
+"picture;photograph;drawing";"[sound:รูปภาพ.mp3]
+รูปภาพ
+rûupˑphâap"
+"to take a photograph";"[sound:ถ่ายรูป.mp3]
+ถ่ายรูป
+thàayˑrûup"
+"photograph";"[sound:รูปถ่าย.mp3]
+รูปถ่าย
+rûupˑthàay"
+"[to] paint;sketch;draw";"[sound:วาดรูป.mp3]
+วาดรูป
+wâatˑrûup"
+"drawing;sketch (N)";"[sound:รูปวาด.mp3]
+รูปวาด
+rûupˑwâat"
+"[to] clean";"[sound:ทำความสะอาด.mp3]
+ทำความสะอาด
+thamˑkhwaamˑsàˑàat"
+"parcel post;parcel";"[sound:พัสดุ.mp3]
+พัสดุ
+phátˑsaˑdù"
+"[to] want (action)";"[sound:อยากให้.mp3]
+อยากให้
+yàak hây"
+"helmet";"[sound:หมวกกันน๊อค.mp3]
+หมวกกันน๊อค
+mùak kan nók"
+"both ... and";"[sound:ทั้ง ... และ.mp3]
+ทั้ง ... และ
+tháŋ ... lɛ́"
+"[to] reconsider;review";"[sound:ทบทวน.mp3]
+ทบทวน
+thópˑthuan"
+"problem";"[sound:ปัญหา.mp3]
+ปัญหา
+panˑhǎa"
+"[to] eat (formal)";"[sound:ทาน.mp3]
+ทาน
+thaan"
+"should;had better";"[sound:น่าจะ.mp3]
+น่าจะ
+nâaˑcà"
+"rice cooker";"[sound:หม้อหุงข้าว.mp3]
+หม้อหุงข้าว
+mɔ̂ɔ hǔŋˑkhâaw"
