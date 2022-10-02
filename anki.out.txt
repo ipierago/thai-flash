@@ -1,87 +1,30 @@
-"just, only";"[sound:แค่.mp3]
-แค่
-khɛ̂ɛ"
-"fried";"[sound:ทอด.mp3]
-ทอด
-thɔ̂ɔt"
-"insect";"[sound:แมลง.mp3]
-แมลง
-maˑlɛɛŋ"
-"ant";"[sound:มด.mp3]
-มด
-mót"
-"bee";"[sound:ผึ้ง.mp3]
-ผึ้ง
-phʉ̂ŋ"
-"beetle";"[sound:ด้วง.mp3]
-ด้วง
-dûaŋ"
-"butterfly";"[sound:ผีเสื้อ.mp3]
-ผีเสื้อ
-phǐiˑsʉ̂a"
-"fly";"[sound:แมลงวัน.mp3]
-แมลงวัน
-maˑlɛɛŋˑwan"
-"grasshopper";"[sound:ตั๊กแตน.mp3]
-ตั๊กแตน
-tákˑkaˑtɛɛn"
-"mosquito";"[sound:ยุง.mp3]
-ยุง
-yuŋ"
-"spider";"[sound:แมงมุม.mp3]
-แมงมุม
-mɛɛŋˑmum"
-"pupa (silkworm)";"[sound:ดักแด้.mp3]
-ดักแด้
-dàkˑdɛ̂ɛ"
-"Pupae in bamboo";"[sound:หนอนรถด่วน.mp3]
-หนอนรถด่วน
-nɔ̌ɔn rótˑdùan"
-"practice";"[sound:ฝึก.mp3]
-ฝึก
-fʉ̀k"
-"picture;photograph;drawing";"[sound:รูปภาพ.mp3]
-รูปภาพ
-rûupˑphâap"
-"to take a photograph";"[sound:ถ่ายรูป.mp3]
-ถ่ายรูป
-thàayˑrûup"
-"photograph";"[sound:รูปถ่าย.mp3]
-รูปถ่าย
-rûupˑthàay"
-"[to] paint;sketch;draw";"[sound:วาดรูป.mp3]
-วาดรูป
-wâatˑrûup"
-"drawing;sketch (N)";"[sound:รูปวาด.mp3]
-รูปวาด
-rûupˑwâat"
-"[to] clean";"[sound:ทำความสะอาด.mp3]
-ทำความสะอาด
-thamˑkhwaamˑsàˑàat"
-"parcel post;parcel";"[sound:พัสดุ.mp3]
-พัสดุ
-phátˑsaˑdù"
-"[to] want (action)";"[sound:อยากให้.mp3]
-อยากให้
-yàak hây"
-"helmet";"[sound:หมวกกันน๊อค.mp3]
-หมวกกันน๊อค
-mùak kan nók"
-"both ... and";"[sound:ทั้ง ... และ.mp3]
-ทั้ง ... และ
-tháŋ ... lɛ́"
-"[to] reconsider;review";"[sound:ทบทวน.mp3]
-ทบทวน
-thópˑthuan"
-"problem";"[sound:ปัญหา.mp3]
-ปัญหา
-panˑhǎa"
-"[to] eat (formal)";"[sound:ทาน.mp3]
-ทาน
-thaan"
-"should;had better";"[sound:น่าจะ.mp3]
-น่าจะ
-nâaˑcà"
-"rice cooker";"[sound:หม้อหุงข้าว.mp3]
-หม้อหุงข้าว
-mɔ̂ɔ hǔŋˑkhâaw"
+[sound:แมลง.mp3];"แมลง
+maˑlɛɛŋ
+insect"
+[sound:มด.mp3];"มด
+mót
+ant"
+[sound:ผึ้ง.mp3];"ผึ้ง
+phʉ̂ŋ
+bee"
+[sound:ด้วง.mp3];"ด้วง
+dûaŋ
+beetle"
+[sound:ผีเสื้อ.mp3];"ผีเสื้อ
+phǐiˑsʉ̂a
+butterfly"
+[sound:แมลงวัน.mp3];"แมลงวัน
+maˑlɛɛŋˑwan
+fly"
+[sound:ตั๊กแตน.mp3];"ตั๊กแตน
+tákˑkaˑtɛɛn
+grasshopper"
+[sound:ยุง.mp3];"ยุง
+yuŋ
+mosquito"
+[sound:แมงมุม.mp3];"แมงมุม
+mɛɛŋˑmum
+spider"
+[sound:ดักแด้.mp3];"ดักแด้
+dàkˑdɛ̂ɛ
+pupa (silkworm)"
