@@ -1,9 +1,9 @@
 const fs = require('fs');
 const util = require('util');
 
-async function readTermsFromFile() {
+async function readTermsFromFile(path) {
   const readFile = util.promisify(fs.readFile);
-  const data = await readFile('new-terms.txt');
+  const data = await readFile(path);
   var array = data.toString().split('\n');
   let i = 0;
   let newTerms = [];
@@ -18,11 +18,11 @@ async function readTermsFromFile() {
   return newTerms;
 }
 
-async function addNewTerms(in_tags = []) {
+async function addNewTerms(path, in_tags = []) {
   const Vocabulary = require('./vocabulary');
   const vocabulary = new Vocabulary();
   await vocabulary.load();
-  const newTerms = await readTermsFromFile();
+  const newTerms = await readTermsFromFile(path);
   for (const term of newTerms) {
     vocabulary.add(term.th, term.ipa, term.en, in_tags);
   }
