@@ -2,7 +2,7 @@ const fs = require('fs');
 const util = require('util');
 const Vocabulary = require('./vocabulary');
 
-async function exportSpeakDeck(tag) {
+async function exportSpeakDeck(tag, path = 'anki.out.txt') {
   const vocabulary = new Vocabulary();
   await vocabulary.load();
   var data = '';
@@ -26,11 +26,11 @@ async function exportSpeakDeck(tag) {
     }
   }
   const writeFile = util.promisify(fs.writeFile);
-  await writeFile('anki.out.txt', data);
-  console.log('anki.out.txt saved');
+  await writeFile(path, data);
+  console.log(path + ' saved');
 }
 
-async function exportListenDeck(tag) {
+async function exportListenDeck(tag, path = 'anki.out.txt') {
   const vocabulary = new Vocabulary();
   await vocabulary.load();
   var data = '';
@@ -48,8 +48,8 @@ async function exportListenDeck(tag) {
     }
   }
   const writeFile = util.promisify(fs.writeFile);
-  await writeFile('anki.out.txt', data);
-  console.log('anki.out.txt saved');
+  await writeFile(path, data);
+  console.log(path + ' saved');
 }
 
 module.exports.exportListenDeck = exportListenDeck;
