@@ -16,11 +16,11 @@ async function mergeQuizlet() {
 }
 
 async function main() {
-  //await addNewTerms('data/new-terms.txt', ['kruu bank', '5 oct 2022']);
+  await addNewTerms('gitignore/new-terms.txt', ['duke', 'journey 2', 'chapter 4', 'core vocab']);
   await ensureAllMP3();
   //await mergeQuizlet();
-  //await anki.exportListenDeck('2 oct 2022', 'anki.listen.txt');
-  //await anki.exportSpeakDeck('2 oct 2022', 'anki.speak.txt');
+  //await anki.exportListenDeck('7 oct 2022', 'gitignore/anki.listen.txt');
+  //await anki.exportSpeakDeck('7 oct 2022', 'gitignore/anki.speak.txt');
 }
 
 main()

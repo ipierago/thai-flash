@@ -13,6 +13,7 @@ async function readTermsFromFile(path) {
     const en = array[i + 2].replace(/(\r\n|\n|\r)/gm, '');
     i = i + 3;
     const term = { th: th, ipa: ipa, en: en };
+    console.log(term);
     newTerms.push(term);
   }
   return newTerms;
