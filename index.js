@@ -3,6 +3,7 @@ const ensureAllMP3 = require('./ensure-all-mp3');
 const importTSV = require('./import-tsv');
 const anki = require('./anki');
 const Vocabulary = require('./vocabulary');
+const exportCSV = require('./export-csv');
 
 async function mergeQuizlet() {
   const vocabulary = new Vocabulary();
@@ -16,11 +17,12 @@ async function mergeQuizlet() {
 }
 
 async function main() {
-  await addNewTerms('gitignore/new-terms.txt', ['duke', 'journey 2', 'chapter 4', 'core vocab']);
-  await ensureAllMP3();
+  //await addNewTerms('gitignore/new-terms.txt', ['duke', 'journey 2', 'chapter 4', 'word builder']);
+  //await ensureAllMP3();
   //await mergeQuizlet();
-  //await anki.exportListenDeck('7 oct 2022', 'gitignore/anki.listen.txt');
-  //await anki.exportSpeakDeck('7 oct 2022', 'gitignore/anki.speak.txt');
+  //await anki.exportListenDeck('kruu bank', 'gitignore/anki.listen.txt');
+  //await anki.exportSpeakDeck('kruu bank', 'gitignore/anki.speak.txt');
+  await exportCSV('gitignore/csv.txt', 'duke');
 }
 
 main()
