@@ -3707,5 +3707,96 @@
       "chapter 3",
       "core vocab"
     ]
+  },
+  {
+    "th": "อะไรนะ",
+    "en": [
+      "pardon?;sorry?;what?"
+    ],
+    "ipa": "àˑray ná",
+    "tags": [
+      "duke",
+      "journey 2",
+      "chapter 3",
+      "word builder"
+    ]
+  },
+  {
+    "th": "(ช่วย) พูดอีกที ได้ มั้ย",
+    "en": [
+      "(help) can you say it again?"
+    ],
+    "ipa": "(chûay) phûut ìikˑthii dâay máy",
+    "tags": [
+      "duke",
+      "journey 2",
+      "chapter 3",
+      "word builder"
+    ]
+  },
+  {
+    "th": "(ช่วย) พูดดังๆหน่อย",
+    "en": [
+      "(help) speak a little louder"
+    ],
+    "ipa": "(chûay) phûut daŋ daŋ nɔ̀y",
+    "tags": [
+      "duke",
+      "journey 2",
+      "chapter 3",
+      "word builder"
+    ]
+  },
+  {
+    "th": "(ช่วย) พูดช้าๆหน่อย",
+    "en": [
+      "(help) speak a little slower"
+    ],
+    "ipa": "(chûay) phûut cháaˑcháa nɔ̀y",
+    "tags": [
+      "duke",
+      "journey 2",
+      "chapter 3",
+      "word builder"
+    ]
+  },
+  {
+    "th": "คำว่า... ใช้ยังไง",
+    "en": [
+      "the word ... how do you use it?"
+    ],
+    "ipa": "kham wâa ... cháy yaŋˑŋay",
+    "tags": [
+      "duke",
+      "journey 2",
+      "chapter 3",
+      "word builder"
+    ]
+  },
+  {
+    "th": "นี้อ่านว่าอะไร",
+    "en": [
+      "this reads as what?"
+    ],
+    "ipa": "níi àan wâa àˑray",
+    "tags": [
+      "duke",
+      "journey 2",
+      "chapter 3",
+      "word builder"
+    ]
+  },
+  {
+    "th": "(ช่วย) เขียนเป็นภาษาไทยให้หน่อย",
+    "en": [
+      "(help) Write in Thai for me"
+    ],
+    "ipa": "(chûay) khǐan pen phaaˑsǎaˑthay hây nɔ̀y",
+    "tags": [
+      "duke",
+      "journey 2",
+      "chapter 3",
+      "word builder"
+    ]
   }
 ]

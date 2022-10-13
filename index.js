@@ -22,7 +22,7 @@ async function main() {
     'duke',
     'journey 2',
     'chapter 3',
-    'core vocab',
+    'word builder',
   ]);
   await ensureAllMP3();
   //await mergeQuizlet();
