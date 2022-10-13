@@ -24,7 +24,7 @@ async function main() {
     'chapter 3',
     'core vocab',
   ]);
-  //await ensureAllMP3();
+  await ensureAllMP3();
   //await mergeQuizlet();
   //await anki.exportListenDeck('12 oct 2022', 'gitignore/anki.listen.txt');
   //await anki.exportSpeakDeck('12 oct 2022', 'gitignore/anki.speak.txt');
