@@ -15,6 +15,23 @@ async function exportCSV(path, tag) {
       data = data + '"';
       data = data + term.ipa;
       data = data + '"';
+      /*
+      data = data + ',';
+      data = data + '"';
+      for (let i in term.en) {
+        if (i > 0) data = data + ', ';
+        data = data + term.en[i];
+      }
+      data = data + '"';
+      */
+
+      data = data + ',';
+      data = data + '"';
+      for (let i in term.tags) {
+        if (i > 0) data = data + ' -- ';
+        data = data + term.tags[i];
+      }
+      data = data + '"';
       data = data + '\r\n';
     }
   }
