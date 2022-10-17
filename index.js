@@ -8,16 +8,16 @@ const exportCSV = require('./export-csv');
 async function mergeQuizlet() {
   const vocabulary = new Vocabulary();
   await vocabulary.load();
-  const terms = await importTSV('./data/quizlet/kruu bank 18 sep 2022.tsv', [
+  const terms = await importTSV('./gitignore/tsv.txt', [
     'kruu bank',
-    '18 sep 2022',
+    '14 sep 2022',
   ]);
   vocabulary.merge(terms);
   await vocabulary.save();
 }
 
 async function main() {
-  //await addNewTerms('gitignore/new-terms.txt', ['kruu bank', '17 oct 2022']);
+  //await addNewTerms('gitignore/new-terms.txt', ['kruu bank', '14 sep 2022']);
   /*
   await addNewTerms('gitignore/new-terms.txt', [
     'duke',
@@ -27,10 +27,10 @@ async function main() {
     'months'
   ]);
   */
-  await ensureAllMP3();
   //await mergeQuizlet();
-  //await anki.exportListenDeck('chapter 5', 'gitignore/anki.listen.txt');
-  //await anki.exportSpeakDeck('chapter 5', 'gitignore/anki.speak.txt');
+  //await ensureAllMP3();
+  //await anki.exportListenDeck('17 oct 2022', 'gitignore/anki.listen.txt');
+  //await anki.exportSpeakDeck('17 oct 2022', 'gitignore/anki.speak.txt');
   //await exportCSV('gitignore/csv.txt', 'duke');
 }
 
