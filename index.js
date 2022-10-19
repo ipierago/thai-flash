@@ -17,7 +17,7 @@ async function mergeQuizlet() {
 }
 
 async function main() {
-  //await addNewTerms('gitignore/new-terms.txt', ['kruu bank', '14 sep 2022']);
+  await addNewTerms('gitignore/new-terms.txt', ['kruu bank', '19 oct 2022']);
   /*
   await addNewTerms('gitignore/new-terms.txt', [
     'duke',
@@ -28,9 +28,9 @@ async function main() {
   ]);
   */
   //await mergeQuizlet();
-  //await ensureAllMP3();
-  //await anki.exportListenDeck('17 oct 2022', 'gitignore/anki.listen.txt');
-  //await anki.exportSpeakDeck('17 oct 2022', 'gitignore/anki.speak.txt');
+  await ensureAllMP3();
+  await anki.exportListenDeck('19 oct 2022', 'gitignore/anki.listen.txt');
+  await anki.exportSpeakDeck('19 oct 2022', 'gitignore/anki.speak.txt');
   //await exportCSV('gitignore/csv.txt', 'duke');
 }
 
